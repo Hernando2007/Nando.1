@@ -1,107 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
-    <title>Menu</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee - Menu</title>
+  <link rel="stylesheet" href="./css/menu.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <nav class="menu-navegacion">
-            <!-- logo -->
-             <a href="#" class="logo-navegacion">
-                <h1 class="logo-tex"> ☕ Coffe </h1>
-             </a>
-             <!-- caja para el menu movil -->
-              <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
-              <!-- menu de navegacion -->
-               <ul class="lista-menu">
-                <li class="lista-item">
-                    <a href="./index.html" class="link-nav" target="_blank"> Home </a>
-                </li>
-                <li class="lista-item">
-                    <a href="./menu.html" class="link-nav" target="_blank"> Menu </a>
-                </li>
-                <li class="lista-item">
-                    <a href="./galeria.html" class="link-nav" target="_blank"> Galeria </a>
-                </li>
-                <li class="lista-item">
-                    <a href="./contactenos.html" class="link-nav" target="_blank"> Contactenos </a>
-                </li>
-            </ul>
-                <!-- accones del icono de suario y del boton de hamburguesa -->
-                     <div class="nav-actions">
-                        <a href="./carrito.html" class="nav-carrito" title="carrito de compras">
-                            <i class="fa-solid fa-cart-shopping"></i> 
-                        </a>
-                        <!-- este actua como el boton de hamburguesa -->
-                         <label for="menu-toggle" class="hamburguer">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                         </label>
-                     </div>
-        </nav>
-    </header>
-  <center><h2 class="titulo"> Menu </h2></center>
-    <div class="targetas">
-        <div class="targeta">
-           <img src="./img/hot-beverages.png" alt="bebidas calientes">
-           <h3> Bebidas calientes </h3>
-           <p> Alta variedad de cafes al vapor para hacer sentir fresco y ligero tu paladar </p>
-           <div class="boton"> 
-            <a href="#" class="btn"> Comprar ahora </a>
-            <a href="#" class="btn"> Mas detalles </a>
-           </div>
-        </div>
-        <div class="targeta">
-           <img src="./img/cold-beverages.png" alt="bebidas frias">
-           <h3> Bebidas frias </h3>
-           <p> Cremoso y espumoso cafe frio para hacerte sentir fresco </p>
-           <div class="boton"> 
-            <a href="#" class="btn"> Comprar ahora </a>
-            <a href="#" class="btn"> Mas detalles </a>
-           </div>
-        </div>
-        <div class="targeta">
-           <img src="./img/refreshment.png" alt="Refrescos">
-           <h3> Refrescos </h3>
-           <p> Bebidas refrescantes con frutas y hielo para hacerte sentir fresco </p>
-           <div class="boton"> 
-            <a href="#" class="btn"> Comprar ahora </a>
-            <a href="#" class="btn"> Mas detalles </a>
-           </div>
-        </div>
-        <div class="targeta">
-           <img src="./img/special-combo.png" alt="combos especiales">
-           <h3> Combos especiales </h3>
-           <p> La mejor combinacion de sabor rapidez y calidad </p>
-           <div class="boton"> 
-            <a href="#" class="btn"> Comprar ahora </a>
-            <a href="#" class="btn"> Mas detalles </a>
-           </div>
-        </div>
-        <div class="targeta">
-           <img src="./img/burger-frenchfries.png" alt="comidas rapidas">
-           <h3> comidas rapidas </h3>
-           <p> Hamburguesas pizzas y snaks listos en un minuto </p>
-           <div class="boton"> 
-            <a href="#" class="btn"> Comprar ahora </a>
-            <a href="#" class="btn"> Mas detalles </a>
-           </div>
-        </div>
-        <div class="targeta">
-           <img src="./img/desserts.png" alt="postres">
-           <h3> Postres </h3>
-           <p> Postres dulces y deliciosos para endulsar cada momento de tu vida </p>
-           <div class="boton"> 
-            <a href="#" class="btn"> Comprar ahora </a>
-            <a href="#" class="btn"> Mas detalles </a>
-           </div>
-        </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">☕</span>
+      <span class="logo-text">Coffee</span>
     </div>
+    <ul class="nav-links">
+      <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./galeria.html" class="nav-link">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contactenos.html" class="nav-link">Contactenos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./carrito.html" class="nav-link">🛒</a>
+                </li>
+    </ul>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="main">
+    <section class="menu-section">
+      <h1 class="menu-title">MENU</h1>
+      <div class="title-underline"></div>
+
+      <div class="menu-grid">
+
+        <!-- Bebidas calientes -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&q=80" alt="Bebidas calientes"/>
+          </div>
+          <h2 class="card-title">Bebidas calientes</h2>
+          <p class="card-desc">Amplia variedad de cafes calientes al vapor para hacer sentir fresco y ligero tu paladar</p>
+          <div class="card-buttons">
+            <button class="btn btn-buy">COMPRAR</button>
+            <button class="btn btn-details">MAS DETALLES</button>
+          </div>
+        </div>
+
+        <!-- Bebidas frias -->
+        <div class="menu-card card-center">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&q=80" alt="Bebidas frias"/>
+          </div>
+          <h2 class="card-title">Bebidas frias</h2>
+          <p class="card-desc">Cremoso y espumoso cafe frío para hacerte sentir fresco.</p>
+          <div class="card-buttons">
+            <button class="btn btn-buy">COMPRAR</button>
+            <button class="btn btn-details">MAS DETALLES</button>
+          </div>
+        </div>
+
+        <!-- Refrescos -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560508180-03f285f67ded?w=300&q=80" alt="Refrescos"/>
+          </div>
+          <h2 class="card-title">Refrescos</h2>
+          <p class="card-desc">Bebidas refrescantes con frutas y hielo para hacerte sentir renovado</p>
+          <div class="card-buttons">
+            <button class="btn btn-buy">COMPRAR</button>
+            <button class="btn btn-details">MAS DETALLES</button>
+          </div>
+        </div>
+
+        <!-- Combos especiales -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=300&q=80" alt="Combos especiales"/>
+          </div>
+          <h2 class="card-title">Combos especiales</h2>
+          <p class="card-desc">La mejor combinación de sabor, rapidez y precio.</p>
+          <div class="card-buttons">
+            <button class="btn btn-buy">COMPRAR</button>
+            <button class="btn btn-details">MAS DETALLES</button>
+          </div>
+        </div>
+
+        <!-- Comidas rapidas -->
+        <div class="menu-card card-center">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80" alt="Comidas rapidas"/>
+          </div>
+          <h2 class="card-title">Comidas rapidas</h2>
+          <p class="card-desc">Hamburguesas, pizza s y snacks listos en minutos para disfrutar al instante.</p>
+          <div class="card-buttons">
+            <button class="btn btn-buy">COMPRAR</button>
+            <button class="btn btn-details">MAS DETALLES</button>
+          </div>
+        </div>
+
+        <!-- Postres -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&q=80" alt="Postres"/>
+          </div>
+          <h2 class="card-title">Postres</h2>
+          <p class="card-desc">Postres dulces y deliciosos para endulzar cada momento de tu vida.</p>
+          <div class="card-buttons">
+            <button class="btn btn-buy">COMPRAR</button>
+            <button class="btn btn-details">MAS DETALLES</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
 </body>
 </html>
